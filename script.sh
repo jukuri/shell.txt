@@ -11,4 +11,6 @@ yum install -y http
 start service http
 pwd 
 ls -al
+mkdir ram
+ls -a
 

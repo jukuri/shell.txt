@@ -13,4 +13,6 @@ pwd
 ls -al
 mkdir ram
 ls -a
+touch rama
+ls -l
 

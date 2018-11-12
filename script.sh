@@ -4,5 +4,7 @@ ls -al
 rmdir rama
 pwd
 yum java
+yum install -y https
+service start https
 yum update
 

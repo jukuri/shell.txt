@@ -15,4 +15,6 @@ mkdir ram
 ls -a
 touch rama
 ls -l
+cp rama rk
+ls -h
 

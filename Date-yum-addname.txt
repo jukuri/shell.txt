@@ -1,0 +1,14 @@
+#!/bin/bash
+#formate=$(date +"%Y-%m-%d-%H-%m")
+#path=/home/manoj/date
+#mkdir -p $path
+#>$path/test-$formate.txt
+
+#!/bin/bash
+yum -y install https
+yum -y update java
+top
+adduser krishan
+passwd 1234
+echo -e "1234/1234" |
+

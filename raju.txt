@@ -68,7 +68,4 @@ echo $NEW_AWS_ACCESS_KEY_ID
 echo $NEW_AWS_SECRET_ACCESS_KEY
 for host in ${A_TEAM_HOSTS[@]};do
 	for profile in ${A_TEAM_PROFILES[@]};do
-		ssh -i facebook.pem ec2-user@$host "echo -e '$NEW_AWS_ACCESS_KEY_ID\n$NEW_AWS_SECRET_ACCESS_KEY\nus-east-1\njson\n' |aws configure --profile $profile"
-	done
-done
-
+		
